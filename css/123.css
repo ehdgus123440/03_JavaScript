@@ -1,5 +1,16 @@
 *{
   background-color: beige;
-  margin: 10px;
-  font-size: 15px;
+
+}
+
+button{
+  background-color: white;
+}
+
+input{
+  background-color: white;
+}
+pre{
+  font-size: 17px;
+  
 }
