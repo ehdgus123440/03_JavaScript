@@ -5,6 +5,7 @@
 
 button{
   background-color: white;
+
 }
 
 input{
@@ -12,5 +13,5 @@ input{
 }
 pre{
   font-size: 17px;
-  
+  font-family: 고딕체;
 }
