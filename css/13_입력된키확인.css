@@ -1,0 +1,45 @@
+*{
+  background-color: beige;
+}
+* > pre{
+  font-family: '고딕체';
+}
+
+.container{
+  width: 650px;
+  height: 180px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.item{
+  margin: 6px;
+  width: 135px;
+  height: 140px;
+  border: 3px solid black;
+  border-radius: 10px;
+
+  font-size: 50px;
+  user-select: none;
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#cursorImage{
+  width: 50px;
+  position: absolute;
+  left : -100px;
+}
+

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>11_요소 접근 방법</title>
-  <link rel="stylesheet" href="../css/123.css">
+
   <link rel="stylesheet" href="../css/11_요소접근방법.css">
 </head>
 <body>
@@ -22,7 +22,7 @@
           TITLE : { TEXT : "제목"},
           LINK  : { rel : "stylesheet", src : "경로"}
         },
-        BODT : {
+        BODY : {
           H1 : {id : "id1", class : "test1", TEXT : "제목"}
         }
       }
@@ -143,8 +143,23 @@
   </div>
   <button onclick="cssTest1()">css 선택자로 요소 접근</button>
 
+  <hr>
+  <h3>카카오톡 모양의 채팅 화면 만들기</h3>
+  <div class="chatting">
+    <div id="chattingBackground">
+      <p>
+        <span>입력된 채팅 내용 출력</span>
+      </p>
+      <p>
+        <span>입력된 채팅 내용 출력</span>
+      </p>
+    </div>
 
-
+    <div id="chattingInput">
+      <input type="text" id="userInput">
+      <button onclick="readValue()">입력</button>
+    </div>
+  </div>
 
 
 
