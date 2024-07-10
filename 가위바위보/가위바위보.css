@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+
+
+main{
+  width: 70%;
+  height: 500px;
+  border: 1px solid black;
+  margin: 150px auto;
+
+  display: flex;
+}
+
+.user{
+  width: 37%;
+
+
+}
+
+.userImg{
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  margin: 10% auto;
+}
+
+.com{
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comImg{
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  margin: 10% auto;
+}
+
+.selectBtn{
+  width: 130px;
+  height: 40px;
+  margin: 10px;
+  user-select: none; 
+  cursor: pointer;
+  border: 1px solid cyan;
+  background-color: white;
+  font-weight: bold;
+}
+
+.selectBtn:hover{
+  color: magenta;
+  background-color: cyan;
+}
+.selectBtn:active{
+  scale: 0.98;
+}
+
+.start{
+  width: 150px;
+  height: 50px;
+  user-select: none; 
+  cursor: pointer;
+
+  border: 1px solid cyan;
+  background-color: white;
+  font-weight: bold;
+}
+
+.start:hover{
+  color: magenta;
+  background-color: cyan;
+}
+.start:active{
+  scale: 0.98;
+}
+
+.score{
+  width: 26%;
+  border-left: 1px solid black;
+  user-select: none;
+
+}
+
+.scoreT{
+  height: 20%;
+  border: 1px solid black;
+  display: block;
+}
+
+.scoreB{
+  height: 80%;
+  border: 1px solid black;
+}
+
+.scoreT1{
+  height: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+.scoreT2{
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text{
+  margin: 13%;
+  user-select: none;
+}
+
+.scoreResult{
+  text-align: center;
+}
+
+.scoreResult > div{
+  justify-content: space-around;
+}
+

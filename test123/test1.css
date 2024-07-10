@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+
+  text-align: center;
+}
+
+.area{
+  display: flex;
+}

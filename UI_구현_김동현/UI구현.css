@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 600px;
+  height: 900px;
+
+  margin: auto;
+}
+
+.sel{
+  height: 70px;
+
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.sel > div{
+  width: 50%;
+  margin: 30px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  
+}
+.sel1{
+  height: 30px;
+  text-align: center;
+
+}
+
+
+.output {
+  height: 450px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.outputResult{
+  width: 300px;
+  height: 450px;
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  border: 3px solid black;
+}

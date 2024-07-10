@@ -9,6 +9,63 @@
 <body>
   <h1>UI_구현_김동현</h1>
 
+  <main>
+    <div class="sel">
+      <div>
+        <b>너비 :</b>   <input type="text" class="input" style="width: 100px;"> px 
+      </div>      
+      <div>
+        <b>높이 :</b>   <input type="text" class="input" style="width: 100px;"> px
+       </div>
+
+    </div>
+    <div class="sel">
+      <div>
+        <b>글자크기 :</b>   <input type="text" class="input" style="width: 100px;"> px 
+      </div> 
+      <div>
+        <b>굵기 :</b> 
+        보통 <input type="radio" name="radio1" value="0">
+        굵게 <input type="radio" name="radio1" value="1">
+      </div>
+    </div>
+    <div class="sel">
+      <div>
+        <b>글자색 : </b><input type="text" id="fontColor1">
+      </div>
+      <div>
+        <b>배경색 : </b><input type="text" id="backgroundColor1">
+      </div>
+    </div>
+    <div class="sel">
+      <div>
+        <b>가로정렬 : </b>
+        <div>왼쪽 <input type="radio" name="input2" value="0"></div>
+        <div>가운데 <input type="radio" name="input2" value="1"></div>
+        <div>오른쪽 <input type="radio" name="input2" value="2"></div>
+      </div>
+    </div>
+    <div class="sel">
+      <div>
+        <b>세로 정렬 : </b>
+        <div> 위 <input type="radio" name="input3" value="0"></div>
+        <div> 가운데 <input type="radio" name="input3" value="1"></div>
+        <div> 아래 <input type="radio" name="input3" value="2"></div>
+
+      </div>
+    </div>
+    <div class="sel">
+      <div>
+        <b>출력문자열</b> <input type="text" id="outputText">
+      </div>
+    </div>
+    <div class="sel1"><button onclick="start()">적용하기</button></div>
+    <div class="output">
+      <div class="outputResult">
+        <div class="Text"></div>
+      </div>
+    </div>
+  </main>
 
 
 
