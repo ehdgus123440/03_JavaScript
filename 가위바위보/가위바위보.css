@@ -86,13 +86,13 @@ main{
 
 .scoreT{
   height: 20%;
-  border: 1px solid black;
   display: block;
+  border-bottom: 1px solid black;
 }
 
 .scoreB{
   height: 80%;
-  border: 1px solid black;
+
 }
 
 .scoreT1{
